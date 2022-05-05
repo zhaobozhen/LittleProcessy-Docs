@@ -1,8 +1,8 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  base: '/LibChecker-Docs/',
-  title: 'LibChecker',
+  base: '/LittleProcessy-Docs/',
+  title: 'LittleProcessy',
   dest: "./dist",
   head: [
     ['link', {
@@ -25,7 +25,7 @@ module.exports = config({
   locales: {
     '/': {
       lang: 'zh-Hans',
-      description: '应用架构查看'
+      description: '应用进程查看'
     }
   },
   themeConfig: {
@@ -66,11 +66,11 @@ module.exports = config({
       align: true
     },
 
-    repo: 'https://github.com/zhaobozhen/LibChecker-Docs',
+    repo: 'https://github.com/zhaobozhen/LittleProcessy-Docs',
 
     repoLabel: "Github",
 
-    docsRepo: 'https://github.com/zhaobozhen/LibChecker-Docs',
+    docsRepo: 'https://github.com/zhaobozhen/LittleProcessy-Docs',
 
     docsDir: 'docs',
 
